@@ -12,7 +12,7 @@ A recommended directory structure is as follows:
   * This minimally contains a config file, a network file, and a population file.
   * Output goes one level down, e.g. `scenarios/mySpecialScenario01/output-from-a-good-run/...`.
   
-  
+   
 ### Import into eclipse
 
 1. download a modern version of eclipse. This should have maven and git included by default.
