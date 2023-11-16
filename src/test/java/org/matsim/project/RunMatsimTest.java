@@ -43,6 +43,11 @@ public class RunMatsimTest {
 	@Rule public MatsimTestUtils utils = new MatsimTestUtils() ;
 
 	@Test
+	public final void test1(){
+		Assert.assertEquals(13,13);
+	}
+
+	@Test
 	// @Ignore("OTFVis does not work on build server") PLEASE DO NOT DO THIS.  Rather comment out OTFVis line in RunMatsim#main.  kai, oct'22
 	public final void test() {
 
